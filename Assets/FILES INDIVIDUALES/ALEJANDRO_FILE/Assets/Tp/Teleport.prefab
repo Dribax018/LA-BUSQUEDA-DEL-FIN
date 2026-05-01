@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3021812267372563649}
   - component: {fileID: 5467190099626575405}
   - component: {fileID: 823307370436420312}
+  - component: {fileID: 4983475228233539646}
   m_Layer: 7
   m_Name: Teleport
   m_TagString: Untagged
@@ -138,3 +139,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.0001, y: 0.0001}
   m_EdgeRadius: 0
+--- !u!114 &4983475228233539646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201815572580972197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f79330ef3dba94a891d2b74165f4b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Teletransporte
+  teleportPosition: {x: 0, y: 0}
+  player: {fileID: 0}
