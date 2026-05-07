@@ -29,7 +29,10 @@ public class MovimientoJugador : MonoBehaviour
     {
         movementInput.x = Input.GetAxisRaw("Horizontal"); //Esto ya viene asignado a Unity a las teclas del eje horizontal (A, D, <-, ->)
         movementInput.y = Input.GetAxisRaw("Vertical"); //Esto ya viene asignado a Unity a las teclas del eje vertical (W, S, ^,v)
-
+        if (movementInput.x != 0)
+        {
+            movementInput.y = 0;
+        }
         movementInput = movementInput.normalized;
 
         //animator.SetFloat("Horizontal", movementInput.x);

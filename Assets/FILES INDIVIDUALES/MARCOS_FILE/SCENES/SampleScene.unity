@@ -228,12 +228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4a738640a89b7e4fb0dee6d4d5f6896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BattleMonster
-  monsterName: Monstruo
-  maxHP: 100
-  attack: 18
-  defense: 10
-  speed: 12
-  moves: []
 --- !u!4 &95616226
 Transform:
   m_ObjectHideFlags: 0
@@ -723,7 +717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 227, y: 633}
+  m_AnchoredPosition: {x: 364, y: 633}
   m_SizeDelta: {x: 260, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &482318017
@@ -776,9 +770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c5f667e72ecb648b68a4bb324a6cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BattleHUD
-  nameText: {fileID: 0}
-  hpText: {fileID: 0}
-  hpSlider: {fileID: 0}
 --- !u!114 &482318020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2288,9 +2279,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c5f667e72ecb648b68a4bb324a6cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BattleHUD
-  nameText: {fileID: 0}
-  hpText: {fileID: 0}
-  hpSlider: {fileID: 0}
 --- !u!114 &1245450601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2544,12 +2532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4a738640a89b7e4fb0dee6d4d5f6896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BattleMonster
-  monsterName: Monstruo
-  maxHP: 100
-  attack: 18
-  defense: 10
-  speed: 12
-  moves: []
 --- !u!4 &1582924399
 Transform:
   m_ObjectHideFlags: 0
