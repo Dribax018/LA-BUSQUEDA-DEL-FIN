@@ -1,36 +1,59 @@
 using System;
+
 using UnityEngine;
+
 [Serializable]
+
 public class BattleMove
+
 {
+
     [SerializeField] private string moveName = "Placaje";
+
     [SerializeField] private int power = 12;
+
     [SerializeField][Range(1, 100)] private int accuracy = 95;
-    [SerializeField] public int maxUsos = 10;
-    private int usosActuales;
+
+    [SerializeField][Min(1)] private int maxUses = 10;
+
+    private int remainingUses;
 
     public string MoveName => moveName;
-    public int Power => power;
-    public int Accuracy => accuracy;
-    public int MaxUsos => maxUsos;
-    public int UsosActuales => usosActuales;
 
-    public void ResetUsos()
+    public int Power => power;
+
+    public int Accuracy => accuracy;
+
+    public int MaxUses => maxUses;
+
+    public int RemainingUses => remainingUses;
+
+    public bool HasUsesLeft => remainingUses > 0;
+
+    public void ResetUses()
+
     {
-        usosActuales = maxUsos;
+
+        remainingUses = Mathf.Max(0, maxUses);
+
     }
 
-    public bool Use()
+    public bool TryConsumeUse()
+
     {
-        if (usosActuales <= 0)
+
+        if (!HasUsesLeft)
+
         {
-            Debug.Log(moveName + " no tiene mas usos");
+
             return false;
+
         }
 
-        usosActuales--;
-        return true;
-    }
-    
-}
+        remainingUses--;
 
+        return true;
+
+    }
+
+}

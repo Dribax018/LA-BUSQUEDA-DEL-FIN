@@ -264,27 +264,27 @@ MonoBehaviour:
   - moveName: Espadazo
     power: 12
     accuracy: 60
-    maxUsos: 10
+    maxUses: 10
   - moveName: Lanza
     power: 30
     accuracy: 25
-    maxUsos: 10
+    maxUses: 10
   - moveName: Tortazo
     power: 5
     accuracy: 100
-    maxUsos: 10
+    maxUses: 10
   - moveName: Japazo
     power: 3
     accuracy: 100
-    maxUsos: 10
+    maxUses: 10
   - moveName: "Golpe con empu\xF1adura"
     power: 10
     accuracy: 80
-    maxUsos: 10
+    maxUses: 10
   - moveName: Escopetazo
     power: 40
     accuracy: 25
-    maxUsos: 10
+    maxUses: 10
 --- !u!1 &127279483
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,7 +891,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2153,12 +2153,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2568,19 +2568,19 @@ MonoBehaviour:
   - moveName: Flechazo
     power: 10
     accuracy: 96
-    maxUsos: 2
+    maxUses: 2
   - moveName: Corte con daga
     power: 5
     accuracy: 90
-    maxUsos: 10
+    maxUses: 10
   - moveName: "Pu\xF1etazo"
     power: 3
     accuracy: 100
-    maxUsos: 10
+    maxUses: 10
   - moveName: Golpe divino
     power: 35
     accuracy: 40
-    maxUsos: 10
+    maxUses: 10
 --- !u!1 &1632168651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2974,8 +2974,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 7922858104835942064, guid: 3a35c720a7d97db41832381ba9201708, type: 3}
+  m_Color: {r: 1, g: 0.9858491, b: 0.9858491, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2993,8 +2993,8 @@ Transform:
   m_GameObject: {fileID: 1838098686}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.07, y: 0.05, z: 0}
-  m_LocalScale: {x: 22.876099, y: 9.844987, z: 1}
+  m_LocalPosition: {x: 0.070007, y: 0.049999, z: 0}
+  m_LocalScale: {x: 1.4, y: 0.97, z: 0.06864212}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
