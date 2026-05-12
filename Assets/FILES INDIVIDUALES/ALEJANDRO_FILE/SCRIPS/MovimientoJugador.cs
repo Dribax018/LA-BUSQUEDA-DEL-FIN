@@ -35,8 +35,8 @@ public class MovimientoJugador : MonoBehaviour
         }
         movementInput = movementInput.normalized;
 
-        //animator.SetFloat("Horizontal", movementInput.x);
-        animator.SetFloat("Vertical", movementInput.y);
+        animator.SetFloat("Horizontal", movementInput.x);
+        //animator.SetFloat("Vertical", movementInput.y);
         //animator.SetFloat("Speed", movementInput.magnitude);
 
     }
