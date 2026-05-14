@@ -43,7 +43,7 @@ public class MovimientoJugador : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = movementInput * velocidad;
+        rb.linearVelocity = movementInput * velocidad * Time.fixedDeltaTime;
     }
 
 }
