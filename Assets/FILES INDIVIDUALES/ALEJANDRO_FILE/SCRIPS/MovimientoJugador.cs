@@ -4,10 +4,11 @@ using System.Collections;
 
 public class MovimientoJugador : MonoBehaviour
 {
-    public float velocidad = 5;
+    public float velocidad = 5f;
     private Rigidbody2D rb;
     private Vector2 movementInput;
-    private Animator animator;
+    public Animator animator;
+    public SpriteRenderer spriteRenderer;
 
 
     // Con estas lineas de c�digo asigno el Rigibody del player autom�ticamente al script al ejecutar el c�digo, de esta forma no es necesario hacerlo en Unity de forma manual
@@ -23,7 +24,7 @@ public class MovimientoJugador : MonoBehaviour
     public void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        //animator= rb.GetComponent<Animator>();
+        animator= rb.GetComponent<Animator>();
     }
     void Update()
     {
@@ -35,15 +36,32 @@ public class MovimientoJugador : MonoBehaviour
         }
         movementInput = movementInput.normalized;
 
-        animator.SetFloat("Horizontal", movementInput.x);
-        //animator.SetFloat("Vertical", movementInput.y);
+        animator.SetFloat("Movimiento D I", movementInput.x);
+
+        if (movementInput.x > 0)
+            spriteRenderer.flipX = false;
+        else if (movementInput.x < 0)
+            spriteRenderer.flipX = true;
+
+
+        Vector3 posicion = transform.position;
+
+        animator.SetFloat("Movimiento arriba", movementInput.y);
+        
+
+        // animator.SetFloat("Movimiento arriba", movementInput.y);
         //animator.SetFloat("Speed", movementInput.magnitude);
 
     }
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = movementInput * velocidad * Time.fixedDeltaTime;
+        rb.MovePosition(rb.position + movementInput * velocidad * Time.fixedDeltaTime);
     }
+
+    /* private void FixedUpdate()
+     {
+         rb.linearVelocity = movementInput * velocidad * Time.fixedDeltaTime;
+     }*/
 
 }
