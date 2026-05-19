@@ -4,6 +4,12 @@ using System.Collections;
 
 public class MovimientoJugador : MonoBehaviour
 {
+    public PlayerSounController playerSounController;
+    bool step = false;
+    
+    public float timeByStep = 0.5f;
+    float cont = 0;
+
     public float velocidad = 5f;
     private Rigidbody2D rb;
     private Vector2 movementInput;
@@ -28,12 +34,33 @@ public class MovimientoJugador : MonoBehaviour
     }
     void Update()
     {
-        movementInput.x = Input.GetAxisRaw("Horizontal"); //Esto ya viene asignado a Unity a las teclas del eje horizontal (A, D, <-, ->)
-        movementInput.y = Input.GetAxisRaw("Vertical"); //Esto ya viene asignado a Unity a las teclas del eje vertical (W, S, ^,v)
+        movementInput.x = Input.GetAxisRaw("Horizontal") * Time.deltaTime; //Esto ya viene asignado a Unity a las teclas del eje horizontal (A, D, <-, ->)
+        movementInput.y = Input.GetAxisRaw("Vertical") * Time.deltaTime; //Esto ya viene asignado a Unity a las teclas del eje vertical (W, S, ^,v)
+
+
         if (movementInput.x != 0)
         {
+
+            cont += Time.deltaTime;
+            if (cont >= timeByStep)
+            {
+                cont = 0f;
+                if (step)
+                {
+                    playerSounController.Paso1();
+                }
+                else
+                {
+                    playerSounController.Paso2();
+                }
+                step = !step;
+            }
             movementInput.y = 0;
         }
+
+
+
+
         movementInput = movementInput.normalized;
 
         animator.SetFloat("Movimiento D I", movementInput.x);
