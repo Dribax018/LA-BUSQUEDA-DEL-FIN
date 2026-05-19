@@ -256,10 +256,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BattleMonster
   monsterName: Rey Malvado
-  maxHP: 220
+  maxHP: 200
   attack: 15
-  defense: 5
-  speed: 10
+  defense: 15
+  speed: 5
   moves:
   - moveName: Espadazo
     power: 12
@@ -274,16 +274,12 @@ MonoBehaviour:
     accuracy: 100
     maxUses: 10
   - moveName: Japazo
-    power: 3
+    power: 2
     accuracy: 100
     maxUses: 10
   - moveName: "Golpe con empu\xF1adura"
     power: 10
     accuracy: 80
-    maxUses: 10
-  - moveName: Escopetazo
-    power: 40
-    accuracy: 25
     maxUses: 10
 --- !u!1 &127279483
 GameObject:
@@ -1532,8 +1528,8 @@ Transform:
   m_GameObject: {fileID: 896351920}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.52, y: -2.33, z: 0}
-  m_LocalScale: {x: -3, y: 3, z: 1}
+  m_LocalPosition: {x: 8.05, y: -2.54, z: 0}
+  m_LocalScale: {x: -2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1984,7 +1980,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.37, y: -2.56, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2561,26 +2557,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BattleMonster
   monsterName: Caballero
   maxHP: 100
-  attack: 10
+  attack: 18
   defense: 12
   speed: 12
   moves:
   - moveName: Flechazo
     power: 10
     accuracy: 96
-    maxUses: 2
+    maxUses: 6
   - moveName: Corte con daga
-    power: 5
+    power: 7
     accuracy: 90
     maxUses: 10
   - moveName: "Pu\xF1etazo"
-    power: 3
+    power: 4
     accuracy: 100
     maxUses: 10
   - moveName: Golpe divino
     power: 35
     accuracy: 40
-    maxUses: 10
+    maxUses: 5
 --- !u!1 &1632168651
 GameObject:
   m_ObjectHideFlags: 0
