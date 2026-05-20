@@ -58,6 +58,25 @@ public class MovimientoJugador : MonoBehaviour
             movementInput.y = 0;
         }
 
+        if (movementInput.y != 0)
+        {
+
+            cont += Time.deltaTime;
+            if (cont >= timeByStep)
+            {
+                cont = 0f;
+                if (step)
+                {
+                    playerSounController.Paso1();
+                }
+                else
+                {
+                    playerSounController.Paso2();
+                }
+                step = !step;
+            }
+            movementInput.x = 0;
+        }
 
 
 
