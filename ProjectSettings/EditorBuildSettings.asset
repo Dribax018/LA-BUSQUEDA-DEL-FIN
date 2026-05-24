@@ -6,8 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Menu Principal.unity
+    guid: f0a4591f8050af34cba963c73c6ef7e1
+  - enabled: 0
     path: Assets/FILE GENERAL/Scenes/PRUEBA GENERAL.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Creditos 2.unity
+    guid: b8225e7b666e41a4bb61b24af00e8326
+  - enabled: 1
+    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Creditos.unity
+    guid: 0ce0e255710041e4ba9f98888838364a
+  - enabled: 1
+    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/PRUEBA ALEJANDRO.unity
+    guid: a679cfb74bf8e354cb85e03ebd5b2254
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
