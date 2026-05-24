@@ -7339,15 +7339,15 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: f64eb0b8facb4bf44bd644f069466997, type: 3}
+  m_Resource: {fileID: 8300000, guid: 85afc67fcb46ba648a248d168da31983, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.357
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 179
+  Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -93653,7 +93653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89777a0081edbc643ab44fc80b473002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerSounController
-  fuente: {fileID: 235612340}
+  fuente: {fileID: 0}
   Mov1: {fileID: 8300000, guid: 022e6eb5cff8b69468867ebea389332f, type: 3}
   Mov2: {fileID: 8300000, guid: 7764e5ea4b2cac94c97d159d47db6f96, type: 3}
 --- !u!1 &904148648
@@ -297140,7 +297140,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -46, y: -39}
-  m_SizeDelta: {x: 160, y: 84}
+  m_SizeDelta: {x: 160, y: 162.481}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &2128672784
 MonoBehaviour:
@@ -297218,8 +297218,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 754274746405705541, guid: e24d7414527d6ce4cac5ed6e00bc8a39, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
