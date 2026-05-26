@@ -156,6 +156,7 @@ public class BattleMonster : MonoBehaviour
 
         return CurrentHP <= 0;
 
+
     }
 
 

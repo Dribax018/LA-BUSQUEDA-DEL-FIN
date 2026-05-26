@@ -6,6 +6,8 @@ using UnityEngine;
 
 using UnityEngine.UI;
 
+using UnityEngine.SceneManagement;
+
 public class TurnBasedBattleSystem : MonoBehaviour
 
 {
@@ -43,6 +45,10 @@ public class TurnBasedBattleSystem : MonoBehaviour
     [Header("Timing")]
 
     [SerializeField] private float actionDelay = 1.1f;
+
+    [Header("Cambio de escena")]
+    [SerializeField] private string victoria;
+    [SerializeField] private string derrota;
 
     private BattleState state = BattleState.Setup;
 
@@ -312,7 +318,18 @@ public class TurnBasedBattleSystem : MonoBehaviour
 
             yield return new WaitForSeconds(actionDelay);
 
-            SetMessage(attacker == playerMonster ? "Has ganado el combate." : "Has perdido el combate.");
+            if (attacker == playerMonster)
+            {
+                SetMessage("Has ganado el combate.");
+                yield return new WaitForSeconds(actionDelay);
+                SceneManager.LoadScene(victoria);
+            }
+            else
+            {
+                SetMessage("Has perdido el combate.");
+                yield return new WaitForSeconds(actionDelay);
+                SceneManager.LoadScene(derrota);
+            }
 
         }
 
