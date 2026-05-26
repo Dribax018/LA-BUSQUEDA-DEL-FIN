@@ -128,7 +128,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 95616226}
-  - component: {fileID: 95616225}
   - component: {fileID: 95616227}
   m_Layer: 0
   m_Name: GameObject (1)
@@ -137,18 +136,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &95616225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 95616224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a738640a89b7e4fb0dee6d4d5f6896, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleMonster
 --- !u!4 &95616226
 Transform:
   m_ObjectHideFlags: 0
@@ -697,7 +684,6 @@ GameObject:
   - component: {fileID: 482318016}
   - component: {fileID: 482318018}
   - component: {fileID: 482318017}
-  - component: {fileID: 482318019}
   - component: {fileID: 482318020}
   m_Layer: 5
   m_Name: PlayerHUD
@@ -715,7 +701,7 @@ RectTransform:
   m_GameObject: {fileID: 482318015}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.0519, y: 2.0519, z: 2.0519}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1941574136}
@@ -765,18 +751,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482318015}
   m_CullTransparentMesh: 1
---- !u!114 &482318019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482318015}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55c5f667e72ecb648b68a4bb324a6cfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleHUD
 --- !u!114 &482318020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1734,7 +1708,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.3, y: -11.7}
+  m_AnchoredPosition: {x: 12.9, y: -11.7}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1012793250
@@ -1813,7 +1787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.5, y: -10.4}
+  m_AnchoredPosition: {x: 19.4, y: -10.4}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1082357351
@@ -2233,7 +2207,6 @@ GameObject:
   - component: {fileID: 1245450597}
   - component: {fileID: 1245450599}
   - component: {fileID: 1245450598}
-  - component: {fileID: 1245450600}
   - component: {fileID: 1245450601}
   m_Layer: 5
   m_Name: EnemyHUD
@@ -2251,7 +2224,7 @@ RectTransform:
   m_GameObject: {fileID: 1245450596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.0519, y: 2.0519, z: 2.0519}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1787851314}
@@ -2301,18 +2274,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245450596}
   m_CullTransparentMesh: 1
---- !u!114 &1245450600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245450596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55c5f667e72ecb648b68a4bb324a6cfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleHUD
 --- !u!114 &1245450601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2403,6 +2364,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338285992}
   m_CullTransparentMesh: 1
+--- !u!1 &1464961782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1464961784}
+  - component: {fileID: 1464961783}
+  m_Layer: 0
+  m_Name: Identificador
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1464961783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464961782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5028807c51728e04f9077e058420420d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BattleManager
+  Caballero: {fileID: 1582924400}
+  enemigo: {fileID: 95616227}
+--- !u!4 &1464961784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464961782}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 757.30365, y: 1357.2775, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1526458147
 GameObject:
   m_ObjectHideFlags: 0
@@ -2545,7 +2552,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1582924399}
-  - component: {fileID: 1582924398}
   - component: {fileID: 1582924400}
   m_Layer: 0
   m_Name: GameObject
@@ -2554,18 +2560,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1582924398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582924397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a738640a89b7e4fb0dee6d4d5f6896, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BattleMonster
 --- !u!4 &1582924399
 Transform:
   m_ObjectHideFlags: 0
@@ -3297,7 +3291,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 8.4, y: -11.6}
+  m_AnchoredPosition: {x: 25.4, y: -10.8}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2093171908
@@ -3433,3 +3427,4 @@ SceneRoots:
   - {fileID: 957891534}
   - {fileID: 1167315685}
   - {fileID: 189674951}
+  - {fileID: 1464961784}
