@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Menu Muerte.unity
     guid: 7d1a68e12fe729946893108bd4c46899
+  - enabled: 1
+    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Menu Final.unity
+    guid: cffa8f85baf17354d89064fb075e97bf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
