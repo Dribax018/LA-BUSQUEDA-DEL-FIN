@@ -164,31 +164,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BattleMonster
   monsterName: Rey Malvado
-  maxHP: 200
-  attack: 15
-  defense: 12
+  maxHP: 100
+  attack: 10
+  defense: 8
   speed: 5
   moves:
-  - moveName: Espadazo
-    power: 12
-    accuracy: 60
-    maxUses: 10
-  - moveName: Lanza
-    power: 30
-    accuracy: 25
-    maxUses: 10
-  - moveName: Tortazo
-    power: 50
-    accuracy: 100
-    maxUses: 10
-  - moveName: Japazo
-    power: 2
-    accuracy: 100
-    maxUses: 10
-  - moveName: "Golpe con empu\xF1adura"
+  - moveName: Cuchillada
     power: 10
-    accuracy: 80
-    maxUses: 10
+    accuracy: 100
+    maxUses: 12
+  - moveName: Contraataque
+    power: 15
+    accuracy: 85
+    maxUses: 5
 --- !u!1 &127279483
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,9 +261,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2100379629}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 50
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 10
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -540,7 +528,7 @@ MonoBehaviour:
   - {fileID: 810835869}
   actionDelay: 1.1
   victoria: CASTILLO
-  derrota: Menu Muerte
+  derrota: Menu Muerte Guardia
 --- !u!1 &464686348
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,7 +906,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 35df26e47bb4416448907b79af25e999, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.162
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1896,7 +1884,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -8470945029372959365, guid: f5875c7fd41cbe4469bb9633306e2022, type: 3}
-  m_Color: {r: 0.8490566, g: 0.8290317, b: 0.8290317, a: 1}
+  m_Color: {r: 0.8207547, g: 0.73945355, b: 0.73945355, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2527,10 +2515,6 @@ MonoBehaviour:
     power: 4
     accuracy: 100
     maxUses: 10
-  - moveName: Golpe divino
-    power: 35
-    accuracy: 45
-    maxUses: 5
 --- !u!1 &1670772297
 GameObject:
   m_ObjectHideFlags: 0

@@ -110441,6 +110441,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2520724722071011460, guid: cb070e6fa22971d408c6eeade6d865d7, type: 3}
+      propertyPath: velocidad
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2520724722071011460, guid: cb070e6fa22971d408c6eeade6d865d7, type: 3}
       propertyPath: spriteRenderer
       value: 
       objectReference: {fileID: 889692174}
