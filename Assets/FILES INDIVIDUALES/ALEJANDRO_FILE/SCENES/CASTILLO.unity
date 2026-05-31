@@ -112837,7 +112837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aaa05faa1eb39d40bc7859e15516464, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CambiarEscenaTrigger
-  pelea: SampleScene
+  pelea: COMBATE FINAL
 --- !u!1001 &966829290
 PrefabInstance:
   m_ObjectHideFlags: 0

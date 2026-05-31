@@ -9,20 +9,26 @@ EditorBuildSettings:
     path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Menu Principal.unity
     guid: f0a4591f8050af34cba963c73c6ef7e1
   - enabled: 1
+    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Creditos.unity
+    guid: 0ce0e255710041e4ba9f98888838364a
+  - enabled: 1
+    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Creditos 2.unity
+    guid: b8225e7b666e41a4bb61b24af00e8326
+  - enabled: 1
     path: Assets/FILES INDIVIDUALES/UNAI_FILE/SCENES/PATIO.unity
     guid: 94971fa470acbae41b66cb062f7ace1a
+  - enabled: 1
+    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/COMBATE GUARDIA.unity
+    guid: fd4824641f3608347a29061e537dc304
+  - enabled: 1
+    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Menu Muerte Guardia.unity
+    guid: 69562ddc5f0b76743b3899034f5b581c
   - enabled: 1
     path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/CASTILLO.unity
     guid: a679cfb74bf8e354cb85e03ebd5b2254
   - enabled: 1
     path: Assets/FILES INDIVIDUALES/MARCOS_FILE/SCENES/COMBATE FINAL.unity
     guid: 6266c1f5e6139bd4da7e8a5db33aaf24
-  - enabled: 1
-    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Creditos 2.unity
-    guid: b8225e7b666e41a4bb61b24af00e8326
-  - enabled: 1
-    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Creditos.unity
-    guid: 0ce0e255710041e4ba9f98888838364a
   - enabled: 1
     path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Menu Muerte.unity
     guid: 7d1a68e12fe729946893108bd4c46899

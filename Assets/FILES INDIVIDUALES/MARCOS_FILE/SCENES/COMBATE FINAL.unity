@@ -540,7 +540,7 @@ MonoBehaviour:
   - {fileID: 810835869}
   - {fileID: 1632168652}
   actionDelay: 1.1
-  victoria: PRUEBA ALEJANDRO
+  victoria: Menu Final
   derrota: Menu Muerte
 --- !u!1 &464686348
 GameObject:
@@ -601,7 +601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6986583675209045885, guid: 6eedb2cfe5a2e6c4d811fa6a2ea6a109, type: 3}
+  m_Sprite: {fileID: -3922128900642872747, guid: 4af91fa4ae4d2a846904576d14bf9464, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1300,7 +1300,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6164722428676393223, guid: 84deeb6c85374c64f87b16f25cad64e4, type: 3}
+  m_Sprite: {fileID: 6235836075114576282, guid: 2c8fe28bff9f19b4ca327697a3321a28, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2471,7 +2471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2254864278230101663, guid: e6d2f9dd7c4a0ff40996d7cdd0a3f118, type: 3}
+  m_Sprite: {fileID: 4355440979998897419, guid: b134807ef73b93642860b3d74b3b99e4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2706,7 +2706,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4386783960939244990, guid: a5b7ec39984610d448041879689c6122, type: 3}
+  m_Sprite: {fileID: 7075444581417898870, guid: 01b46fe972205ba42858eeddeebc7aaa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
