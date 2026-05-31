@@ -18,6 +18,8 @@ public class MovimientoJugador : MonoBehaviour
 
     public EspadaTrigger EspadaT;
 
+   
+
 
     // Con estas lineas de c�digo asigno el Rigibody del player autom�ticamente al script al ejecutar el c�digo, de esta forma no es necesario hacerlo en Unity de forma manual
     //--------------------------------------------
@@ -36,6 +38,7 @@ public class MovimientoJugador : MonoBehaviour
     }
     void Update()
     {
+
         movementInput.x = Input.GetAxisRaw("Horizontal") * Time.deltaTime; //Esto ya viene asignado a Unity a las teclas del eje horizontal (A, D, <-, ->)
         movementInput.y = Input.GetAxisRaw("Vertical") * Time.deltaTime; //Esto ya viene asignado a Unity a las teclas del eje vertical (W, S, ^,v)
 
@@ -104,6 +107,7 @@ public class MovimientoJugador : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
         rb.MovePosition(rb.position + movementInput * velocidad * Time.fixedDeltaTime);
     }
 
@@ -130,5 +134,7 @@ public class MovimientoJugador : MonoBehaviour
             EspadaT.Parar();
         }
     }
+
+    
 
 }
