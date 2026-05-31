@@ -58,7 +58,7 @@ public class MovimientoJugador : MonoBehaviour
             movementInput.y = 0;
         }
 
-        if (movementInput.y != 0)
+        else if (movementInput.y != 0)
         {
 
             cont += Time.deltaTime;
