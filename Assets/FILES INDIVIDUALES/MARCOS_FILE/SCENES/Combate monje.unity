@@ -532,8 +532,8 @@ MonoBehaviour:
   - {fileID: 810835869}
   - {fileID: 0}
   actionDelay: 1.1
-  victoria: Menu Final
-  derrota: Menu Muerte
+  victoria: CASTILLO sin monje
+  derrota: Menu Muerte Monje
 --- !u!1 &464686348
 GameObject:
   m_ObjectHideFlags: 0

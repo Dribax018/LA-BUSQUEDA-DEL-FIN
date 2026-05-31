@@ -27,6 +27,15 @@ EditorBuildSettings:
     path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/CASTILLO.unity
     guid: a679cfb74bf8e354cb85e03ebd5b2254
   - enabled: 1
+    path: Assets/FILES INDIVIDUALES/MARCOS_FILE/SCENES/Combate monje.unity
+    guid: fa67015610374984e90a60116c42ab1c
+  - enabled: 1
+    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Menu Muerte Monje.unity
+    guid: 17d4f84ea79b49240aae0a42d430e252
+  - enabled: 1
+    path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/CASTILLO sin monje.unity
+    guid: ee0c86b4d0c154b48bfd192201485ac7
+  - enabled: 1
     path: Assets/FILES INDIVIDUALES/MARCOS_FILE/SCENES/COMBATE FINAL.unity
     guid: 6266c1f5e6139bd4da7e8a5db33aaf24
   - enabled: 1
@@ -35,9 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FILES INDIVIDUALES/ALEJANDRO_FILE/SCENES/Menu Final.unity
     guid: cffa8f85baf17354d89064fb075e97bf
-  - enabled: 1
-    path: Assets/FILES INDIVIDUALES/MARCOS_FILE/SCENES/Combate monje.unity
-    guid: fa67015610374984e90a60116c42ab1c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
