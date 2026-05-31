@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Trriggercomienzo : MonoBehaviour
 {
+
+   
     public GameObject Pausacomienzo;
     public bool Pausado = false;
 
@@ -10,6 +12,7 @@ public class Trriggercomienzo : MonoBehaviour
     {
         Debug.Log("CLICK EN COMENZAR");
 
+        
 
         Pausacomienzo.SetActive(false);
         Time.timeScale = 1;
