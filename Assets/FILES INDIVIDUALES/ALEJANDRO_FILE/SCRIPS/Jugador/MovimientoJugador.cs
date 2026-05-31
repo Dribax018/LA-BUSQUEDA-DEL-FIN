@@ -16,6 +16,8 @@ public class MovimientoJugador : MonoBehaviour
     public Animator animator;
     public SpriteRenderer spriteRenderer;
 
+    public EspadaTrigger EspadaT;
+
 
     // Con estas lineas de c�digo asigno el Rigibody del player autom�ticamente al script al ejecutar el c�digo, de esta forma no es necesario hacerlo en Unity de forma manual
     //--------------------------------------------
@@ -109,5 +111,16 @@ public class MovimientoJugador : MonoBehaviour
      {
          rb.linearVelocity = movementInput * velocidad * Time.fixedDeltaTime;
      }*/
+
+
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+         if (other.gameObject.CompareTag("Espada2"))
+        {
+            Destroy(other.gameObject);
+            EspadaT.Parar();
+        }
+    }
 
 }

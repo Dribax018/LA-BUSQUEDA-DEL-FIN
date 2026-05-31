@@ -6,6 +6,7 @@ TagManager:
   tags:
   - EspadaPartida
   - Enemigo Final
+  - Espada2
   layers:
   - Default
   - TransparentFX
