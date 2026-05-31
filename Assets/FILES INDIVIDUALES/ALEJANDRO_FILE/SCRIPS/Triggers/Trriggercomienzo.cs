@@ -8,6 +8,9 @@ public class Trriggercomienzo : MonoBehaviour
 
     public void Empezar()
     {
+        Debug.Log("CLICK EN COMENZAR");
+
+
         Pausacomienzo.SetActive(false);
         Time.timeScale = 1;
         Pausado = false;
