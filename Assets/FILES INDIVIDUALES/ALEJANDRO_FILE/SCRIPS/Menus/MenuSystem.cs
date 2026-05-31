@@ -6,6 +6,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 {
     public void Cambiarescena(string nombre)
     {
+        Debug.Log("Boton pulsado. Cargando escena: " + nombre);
         SceneManager.LoadScene(nombre);
     }
     public void salir()
