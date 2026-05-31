@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - EspadaPartida
   - Enemigo Final
   - Espada2
+  - Espada
   layers:
   - Default
   - TransparentFX

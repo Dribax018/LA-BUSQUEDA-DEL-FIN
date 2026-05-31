@@ -9,7 +9,7 @@ public class PlayerSounController : MonoBehaviour
 
     public AudioClip Mov1;
     public AudioClip Mov2;
-
+    public AudioClip Recoger;
 
 
     public void Paso1()
@@ -19,5 +19,10 @@ public class PlayerSounController : MonoBehaviour
     public void Paso2()
     {
         fuente.PlayOneShot(Mov2);
+    }
+
+    public void EspadaRecoger()
+    {
+        fuente.PlayOneShot(Recoger);
     }
 }

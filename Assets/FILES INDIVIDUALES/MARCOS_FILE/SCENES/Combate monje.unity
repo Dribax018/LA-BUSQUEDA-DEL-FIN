@@ -530,7 +530,6 @@ MonoBehaviour:
   - {fileID: 464686352}
   - {fileID: 1526458151}
   - {fileID: 810835869}
-  - {fileID: 0}
   actionDelay: 1.1
   victoria: CASTILLO sin monje
   derrota: Menu Muerte Monje
@@ -909,9 +908,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 35df26e47bb4416448907b79af25e999, type: 3}
+  m_Resource: {fileID: 8300000, guid: 008e0cc6b3ce2b94390dccd1d62df5da, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.065
+  m_Volume: 0.208
   m_Pitch: 1
   Loop: 1
   Mute: 0

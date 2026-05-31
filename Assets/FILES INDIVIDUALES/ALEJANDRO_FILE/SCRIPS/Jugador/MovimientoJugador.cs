@@ -118,6 +118,14 @@ public class MovimientoJugador : MonoBehaviour
     {
          if (other.gameObject.CompareTag("Espada2"))
         {
+           playerSounController.EspadaRecoger();
+           Destroy(other.gameObject);
+           EspadaT.Parar();
+        }
+
+        if (other.gameObject.CompareTag("Espada"))
+        {
+            playerSounController.EspadaRecoger();
             Destroy(other.gameObject);
             EspadaT.Parar();
         }
