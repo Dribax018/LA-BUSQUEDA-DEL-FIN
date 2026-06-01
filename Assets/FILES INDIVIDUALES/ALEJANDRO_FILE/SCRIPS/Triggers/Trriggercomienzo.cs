@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Trriggercomienzo : MonoBehaviour
 {
+    public MovimientoJugador movimientoJugador;
 
-   
     public GameObject Pausacomienzo;
     public bool Pausado = false;
 
@@ -17,6 +17,7 @@ public class Trriggercomienzo : MonoBehaviour
         Pausacomienzo.SetActive(false);
         Time.timeScale = 1;
         Pausado = false;
+        movimientoJugador.ActivarMovimiento();
     }
 
 }

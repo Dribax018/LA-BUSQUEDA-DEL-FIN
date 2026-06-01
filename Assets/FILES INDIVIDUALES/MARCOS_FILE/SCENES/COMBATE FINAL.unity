@@ -178,17 +178,17 @@ MonoBehaviour:
     accuracy: 25
     maxUses: 10
   - moveName: Tortazo
-    power: 50
+    power: 8
     accuracy: 100
     maxUses: 10
   - moveName: Japazo
     power: 2
     accuracy: 100
     maxUses: 10
-  - moveName: "Golpe con empu\xF1adura"
-    power: 10
-    accuracy: 80
-    maxUses: 10
+  - moveName: Destello final
+    power: 100
+    accuracy: 20
+    maxUses: 5
 --- !u!1 &127279483
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,9 +273,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2100379629}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 200
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 200
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1513,7 +1513,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 3149055127078792884, guid: c8f90cb597cd55046ba8f3f8e8d68356, type: 3}
   m_Color: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
@@ -1604,10 +1604,10 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6876049486040471667, guid: ac584bba3ae4af04db9bd1d63833e678, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4339623, g: 0.39506945, b: 0.39506945, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2064,7 +2064,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -8470945029372959365, guid: f5875c7fd41cbe4469bb9633306e2022, type: 3}
   m_Color: {r: 0.8490566, g: 0.8290317, b: 0.8290317, a: 1}
@@ -3060,7 +3060,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100/100 HP
+  m_Text: 200/200 HP
 --- !u!222 &1787851316
 CanvasRenderer:
   m_ObjectHideFlags: 0
