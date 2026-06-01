@@ -1,16 +1,21 @@
-using UnityEngine;
+//using UnityEngine;
 
-public class TransiciónEscena : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+//public class TransiciónEscena : MonoBehaviour
+//{
+//    private Animator animator;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+//    [SerializeField] private AnimationClip animationFinal;
+
+//    private void Start()
+//    {
+//        animator = GetComponent<Animator>();
+//    }
+
+//    private void Update()
+//    {
+//        if (Input.GetKeyUp(KeyCode.Escape))
+//        {
+//            Debug.Log("Cambio de escena");
+//        }
+//    }
+//}
